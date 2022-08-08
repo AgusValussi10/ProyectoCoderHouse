@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
         <link rel="stylesheet" href="estilos/styles.css">
         <link rel="icon" href="media/logo.png">
         <title>Pagina Principal</title>
@@ -35,22 +36,22 @@
     <h1 class="titulo"> Pagina Oficial Tn Noticias</h1>
         <main>
                 <div class="primerpagina">
-                        <div class="img1">
+                        <div class="img1 wow animate__animated animate__backInLeft">
                             <a title="EnVivo" href="https://tn.com.ar/envivo/24hs/" target="_blank"><img class="imgvivo" src="media/tnenvivo.jpg" title="Tn En Vivo" alt="tnenvivo"> </a>
                         </div>
-                        <div class="not1"> 
+                        <div class="not1 wow animate__animated animate__backInUp"> 
                             <a href="https://tn.com.ar/tags/coronavirus/" target="_blank"><img class="imgnoticias" src="media/noticiascovid.jpg" alt="noticia1" title="Coronavirus"></a>
                         </div>
-                        <div class="not2">
+                        <div class="not2 wow animate__animated animate__backInUp">
                             <a href="https://tn.com.ar/tags/guerra-rusia-ucrania/" target="_blank"><img class="imgnoticiasucr" src="media/ucraniaguerra.jpg" alt="guerra" title="Guerra Ucrania - Russia"></a>
                         </div>
-                        <div class="not3">
+                        <div class="not3 wow animate__animated animate__backInDown">
                             <a href="https://tn.com.ar/politica/202207/03/silvina-batakis-es-la-nueva-ministra-de-economia/" target="_blank"><img  class="imgnoticiasbat" src="media/ministra.jpg" alt="ministra" title="Nueva Ministra Economia"></a>
                         </div>
-                        <div class="not4">
+                        <div class="not4 wow animate__animated animate__backInUp">
                             <a href="https://dolarhoy.com/" target="_blank"><img class="imgnoticias" src="media/dolar.jpg" alt="dolar" title="DolarHoy" ></a>
                         </div>
-                        <div class="not5"> 
+                        <div class="not5 wow animate__animated animate__backInLeft"> 
                             <a href="https://www.instagram.com/afaseleccion/?hl=es-la" target="_blank"><img class="imgnoticiassel" src="./media/scaloneta.jpg" alt="noticia5" title="SeleccionArgentina"></a>
                         </div>
                 </div> <br>
@@ -59,7 +60,7 @@
         </main>
         <hr>
         
-        <footer>
+        <footer class="wow animate__animated animate__zoomInUp">
             <h3><em> Te dejamos nuestras redes👇 </em></h3>
             <a title="WhatsApp" href="https://walink.co/fb73ad" target="_blank"> <img src="media/logowp.png" alt="WhastApp" width="60px"> </a>
             <a title="Instagram" href="https://www.instagram.com/todonoticias/?hl=es-la" target="_blank"> <img src="media/logoig.png" alt="Instagram" width="60px"> </a>
@@ -73,5 +74,11 @@
                 Coder House - 2022
             </h5>
         </footer>
+
+        <script src="../js/wow.min.js"></script>
+        <script>
+            new WOW().init();
+        </script>
+
     </body>
 </html>

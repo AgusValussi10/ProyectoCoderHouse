@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
         <link rel="icon" href="/media/logo.png">
         <link rel="stylesheet" href="../estilos/styles.css">
         <title>Contactanos</title>
@@ -35,11 +36,11 @@
         <h1 class="titulo">Contactanos</h1>
         <main>
             <div>
-        <p><h2><em>En el siguiente formulario deja tus datos para contactarnos👇👇</em></h2></p>
-            <form action="">
+        <p><h2 class="wow animate__animated animate__fadeInDown"><em>En el siguiente formulario deja tus datos para contactarnos👇👇</em></h2></p>
+            <form action="" class="wow _zoomInUp">
             <fieldset>
             <legend>Contactanos</legend>
-                <div>
+                <div >
                     <label for="nombre">Nombre</label>
                     <input type="text" name="nombre" placeholder="escriba su nombre" required> *
                 </div>
@@ -79,8 +80,8 @@
         <br>
         </div>
         </main>
-        <footer>
-            <h3><em> Te dejamos nuestras redes👇 </em></h3>
+        <footer class="wow _zoomInUp">
+            <h3><em> Te dejamos nuestras redes👇</em></h3>
             <a title="WhatsApp" href="https://walink.co/fb73ad" target="_blank"> <img src="../media/logowp.png" alt="WhastApp" width="60px"> </a>
             <a title="Instagram" href="https://www.instagram.com/todonoticias/?hl=es-la" target="_blank"> <img src="../media/logoig.png" alt="Instagram" width="60px"> </a>
             <a title="Facebook" href="https://www.facebook.com/todonoticias" target="_blank"> <img src="../media/logofb.png" alt="Facebook" width="60px"> </a>
@@ -93,5 +94,10 @@
                 Coder House - 2022
             </h5>
         </footer>
+        <script src="../js/wow.min.js"></script>
+        <script>
+            new WOW().init();
+        </script>
+
     </body>
 </html>
