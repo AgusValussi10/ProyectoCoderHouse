@@ -211,10 +211,10 @@ input{
     text-align: justify;
 }
 .textoparte1 p{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 .textoparte2 p{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 .textoparte2{
     grid-area: textoparte2;
@@ -289,7 +289,7 @@ input{
 }
 .periodistas2>div>p{
     padding: 5px;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     text-align: justify;
 }
 
@@ -370,7 +370,7 @@ main>article>h2 {
 section .parrafos{
     text-align: center;
     width: 40%;
-    font-size: 1.3rem;
+    font-size: 2rem;
 }
 section .parrafos p{
     width: 600px;
@@ -392,7 +392,6 @@ section div h3{
     text-align: center;
     font-style: oblique;
 }
-
 /* FOOTER */
 footer{
     text-align: center;
@@ -489,9 +488,9 @@ footer a img{
         width: 95%;
         height: 100%;
     }
-    .periodistas2>div>p{
+    .periodistas2 p{
         padding: 1px;
-        font-size: 1.3rem;
+        font-size: 1rem;
         text-align: justify;
     }
     .titulosperiodistas{
@@ -504,7 +503,6 @@ footer a img{
         height: 240px;
     }
 } 
-
 
 /*TRABAJANDO MEDIA QUIERES TAMAÑO CELULAR*/
 @media (max-width: 375px){
