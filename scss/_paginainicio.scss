@@ -1,0 +1,77 @@
+/////////*PAGINA INICIO - INDEX*/////////
+/////////*ANUNCIOS - NOTICIAS*/////////
+main{
+    padding: 3;
+    margin: 3px;
+    .primerpagina{
+        width: 95%;
+        margin: 0 auto;
+        padding: 1%;
+        grid-gap: 10px;
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: 
+        "img1 not3 not3"
+        "img1 not2 not1"
+        "not5 not2 not4";
+
+        .img1{
+            grid-area: img1;
+        }
+        .not1{
+            grid-area: not1;
+        }
+        .not2{
+            grid-area: not2;
+        }
+        .not3{
+            grid-area: not3;
+        }
+        .not4{
+            grid-area: not4;
+        }
+        .not5{
+            grid-area: not5;
+        }
+        .imgvivo{
+            width: 595px;
+            height: 500px;
+            border: 3px solid green;
+            opacity: 1;
+            border-radius: 4px;
+        }
+        .imgnoticias{
+            width: 320px;
+            height: 245px;
+            border-radius: 4px;
+            border: 2px solid green;
+            opacity: 0.9;
+        }
+        .imgnoticiasbat{
+            width: 645px;
+            height: 245px;
+            border-radius: 4px;
+            border: 2px solid green;
+            opacity: 0.9;
+        }
+        .imgnoticiassel{
+            width: 595px;
+            height: 245px;
+            border-radius: 4px;
+            border: 2px solid green;
+            opacity: 0.9;
+        }
+        .imgnoticiasucr{
+            width: 320px;
+            height: 500px;
+            border-radius: 4px;
+            border: 2px solid green;
+            opacity: 0.9;
+        }
+        a img:hover{
+            opacity: 0.7;
+            color: black;
+        }
+    }
+}
