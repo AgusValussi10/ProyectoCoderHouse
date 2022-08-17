@@ -1,0 +1,21 @@
+/////////*PAGINA CONTACTO - FORM*/////////
+form{
+    width: 98%;
+    margin: auto;
+    padding: 20px;
+    background-color: #f7b42c;
+    background-image: linear-gradient(315deg, #f7b42c 0%, #fc575e 74%);
+    h4{
+        margin-left: 1%;
+        margin-right: 10%;
+        text-align: center;
+    }
+    fieldset{
+        color: rgb(11, 76, 7);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    input{
+        background-color: rgb(146, 234, 146);
+        font-size: 1.3rem;
+    }
+}

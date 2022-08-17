@@ -1,0 +1,104 @@
+/////////*RESPONSIVE - CELULAR*/////////
+
+@media (max-width: 375px){
+    .titulo{
+        font-size: 1.3rem;
+    }
+    .menu > li > a{
+        font-size: 0.6rem;
+        text-align: center;
+    }
+    .logocell{
+        width: 120px;
+    }
+    //*INDEX RESPONSIVE*//
+    .primerpagina{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(5, 0.5fr);
+        grid-template-areas: 
+        "img1 img1"
+        "not1 not2"
+        "not3 not2"
+        "not3 not4"
+        "not5 not5"
+        ;
+    
+        .imgvivo{
+            width: 100%;
+            height: 100%;
+        }
+        .imgnoticias{
+            width: 100%;
+            height: 100%;
+        }
+        .imgnoticiasbat{
+            width: 100%;
+            height: 100%;
+        }
+        .imgnoticiassel{
+            width: 100%;
+            height: 100%;
+        }
+        .imgnoticiasucr{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    /*QUIENES SOMOS RESPONSIVE*/
+    .periodistas1{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+        "imgtodos"
+        "textoparte1"
+        "textoparte2"
+        ;
+        .imgperiodistas{
+            width: 100%;
+            height: 300px;
+        }
+        .textoparte1 p{
+        font-size: 1.2rem;
+        text-align: justify;
+        }
+        .textoparte2 p{
+        font-size: 1.2rem;
+        text-align: justify;
+        }
+        .periodistas2{
+            grid-gap: 1px;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(12, 0.5fr);
+            grid-template-areas: 
+            "primerdescripcion"
+            "primerfoto"
+            "segundadescripcion"
+            "segundafoto"
+            "terceradescripcion"
+            "tercerafoto"
+            "cuartadescripcion"
+            "cuartafoto"
+            "quintadescripcion"
+            "quintafoto"
+            "sextadescripcion"
+            "sextafoto"
+            ;
+        }
+    }
+
+    /*NOTICIAS RESPONSIVE*/
+    .padrenoticias{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(8, 0.5fr);
+        grid-template-areas: 
+        "noticia1"
+        "noticia2"
+        "noticia3"
+        "noticia4"
+        "noticia5"
+        "noticia6"
+        "noticia7"
+        "noticia8"
+        ;
+    }
+}

@@ -1,3 +1,4 @@
+/////////*TODAS LAS PAGINAS - CONTENIDO*/////////
 @import "body";
 
 @import "header";
@@ -6,7 +7,33 @@
 
 @import "paginainicio";
 
+@import "./_paginasnoticias.scss/paginanoticiaseconomia";
+@import "./_paginasnoticias.scss/paginanoticiaspolitica";
+@import "./_paginasnoticias.scss/paginanoticiasdeporte";
+@import "./_paginasnoticias.scss/paginanoticiasinternacional";
+
+@import "paginanosotros";
+
+@import "paginaubicacion";
+
+@import "paginacontacto";
+
 @import "footer";
+
+
+/////////*TRABAJANDO MEDIA QUERIES*/////////
+
+/////////*TAMAÑO CELULAR*/////////
+@import "mqcelular";
+
+/////////*TAMAÑO TABLET*/////////
+@import "mqtablet";
+
+
+
+
+
+
 
 
 

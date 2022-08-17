@@ -1,0 +1,125 @@
+/////////*PAGINA NOSOTROS*/////////
+h2{
+    text-align: center;
+}
+/////////*PERIODISTAS 1*/////////
+section{
+    .periodistas1{
+        background-color: aliceblue;
+        border: solid 3px black;
+        border-radius: 5px;
+        margin: auto;
+        padding: 15px;
+        width: 90%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 2fr 1,5fr;
+        grid-template-areas: 
+        "imgtodos textoparte1"
+        "textoparte2 textoparte2"
+        ;
+            .imgtodos{
+                padding: 5px;
+                grid-area: imgtodos;
+            }
+            .imgperiodistas{
+                width: 600px;
+                height: 380px;
+            }
+            .imgtodos img{
+                border-radius: 5px;
+                border: solid 3px black;
+            }
+            .textoparte1{
+                grid-area: textoparte1;
+                text-align: justify;
+            }
+            .textoparte1 p{
+                font-size: 1.3rem;
+            }
+            .textoparte2 p{
+                font-size: 1.3rem;
+            }
+            .textoparte2{
+                grid-area: textoparte2;
+                text-align: justify;
+            }
+    }
+}
+    /////////*PERIODISTAS 2*/////////
+section{
+    text-align: center;
+        .periodistas2{
+            background-color: aliceblue;
+            width: 90%;
+            border-radius: 5px;
+            margin: auto;
+            border: solid 3px black;
+            grid-gap: 5px;
+            row-gap: 20px;
+            padding: 15px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            grid-template-areas: 
+            "primerdescripcion primerfoto "
+            "segundafoto segundadescripcion"
+            "terceradescripcion tercerafoto"
+            "cuartafoto cuartadescripcion"
+            "quintadescripcion quintafoto"
+            "sextafoto sextadescripcion"
+            ;
+        .primerfoto{
+            grid-area: primerfoto;
+        }
+        .primerdescripcion{
+            grid-area: primerdescripcion;
+        }
+        .segundafoto{
+            grid-area: segundafoto;
+        }
+        .segundadescripcion{
+            grid-area: segundadescripcion;
+        }
+        .tercerafoto{
+            grid-area: tercerafoto;
+        }
+        .terceradescripcion{
+            grid-area: terceradescripcion;
+        }
+        .cuartafoto{
+            grid-area: cuartafoto;
+        }
+        .cuartadescripcion{
+            grid-area: cuartadescripcion;
+        }
+        .quintafoto{
+            grid-area: quintafoto;
+        }
+        .quintadescripcion{
+            grid-area: quintadescripcion;
+        }
+        .sextafoto{
+            grid-area: sextafoto;
+        }
+        .sextadescripcion{
+            grid-area: sextadescripcion;
+        }
+
+        /////////*CLASES*/////////
+        .titulosperiodistas{
+            color: darkmagenta;
+            font-size: 2rem;
+            text-align: center;
+            font-style: oblique;
+        }
+        .descripcionperiodistas{
+            text-align: justify;
+            font-size: 1.3rem;
+        }
+        .imgperiodistaspers{
+            width: 80%;
+            height: 400px;
+        }
+    }
+}

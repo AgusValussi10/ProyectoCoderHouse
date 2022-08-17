@@ -115,6 +115,258 @@ main .primerpagina a img:hover {
   color: black;
 }
 
+.padrenoticias {
+  margin: auto;
+  margin-top: 10px;
+  width: 90%;
+  padding: 30px;
+  grid-gap: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-areas: "noticia1 noticia2" "noticia3 noticia4" "noticia5 noticia6" "noticia7 noticia8";
+}
+.padrenoticias .noticia1 {
+  grid-area: noticia1;
+}
+.padrenoticias .noticia2 {
+  grid-area: noticia2;
+}
+.padrenoticias .noticia3 {
+  grid-area: noticia3;
+}
+.padrenoticias .noticia4 {
+  grid-area: noticia4;
+}
+.padrenoticias .noticia5 {
+  grid-area: noticia5;
+}
+.padrenoticias .noticia6 {
+  grid-area: noticia6;
+}
+.padrenoticias .noticia7 {
+  grid-area: noticia7;
+}
+.padrenoticias .noticia8 {
+  grid-area: noticia8;
+}
+.padrenoticias .iframenoticias {
+  width: 450px;
+  height: 390px;
+}
+
+.padrenoticias {
+  margin: auto;
+  margin-top: 10px;
+  width: 90%;
+  padding: 30px;
+  grid-gap: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-areas: "noticia1 noticia2" "noticia3 noticia4" "noticia5 noticia6" "noticia7 noticia8";
+}
+.padrenoticias .noticia1 {
+  grid-area: noticia1;
+}
+.padrenoticias .noticia2 {
+  grid-area: noticia2;
+}
+.padrenoticias .noticia3 {
+  grid-area: noticia3;
+}
+.padrenoticias .noticia4 {
+  grid-area: noticia4;
+}
+.padrenoticias .noticia5 {
+  grid-area: noticia5;
+}
+.padrenoticias .noticia6 {
+  grid-area: noticia6;
+}
+.padrenoticias .noticia7 {
+  grid-area: noticia7;
+}
+.padrenoticias .noticia8 {
+  grid-area: noticia8;
+}
+.padrenoticias .iframenoticias {
+  width: 450px;
+  height: 390px;
+}
+
+.padrenoticias {
+  margin: auto;
+  margin-top: 10px;
+  width: 90%;
+  padding: 30px;
+  grid-gap: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-areas: "noticia1 noticia2" "noticia3 noticia4" "noticia5 noticia6" "noticia7 noticia8";
+}
+.padrenoticias .noticia1 {
+  grid-area: noticia1;
+}
+.padrenoticias .noticia2 {
+  grid-area: noticia2;
+}
+.padrenoticias .noticia3 {
+  grid-area: noticia3;
+}
+.padrenoticias .noticia4 {
+  grid-area: noticia4;
+}
+.padrenoticias .noticia5 {
+  grid-area: noticia5;
+}
+.padrenoticias .noticia6 {
+  grid-area: noticia6;
+}
+.padrenoticias .noticia7 {
+  grid-area: noticia7;
+}
+.padrenoticias .noticia8 {
+  grid-area: noticia8;
+}
+.padrenoticias .iframenoticias {
+  width: 450px;
+  height: 390px;
+}
+
+h2 {
+  text-align: center;
+}
+
+section .periodistas1 {
+  background-color: aliceblue;
+  border: solid 3px black;
+  border-radius: 5px;
+  margin: auto;
+  padding: 15px;
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2fr 1, 5fr;
+  grid-template-areas: "imgtodos textoparte1" "textoparte2 textoparte2";
+}
+section .periodistas1 .imgtodos {
+  padding: 5px;
+  grid-area: imgtodos;
+}
+section .periodistas1 .imgperiodistas {
+  width: 600px;
+  height: 380px;
+}
+section .periodistas1 .imgtodos img {
+  border-radius: 5px;
+  border: solid 3px black;
+}
+section .periodistas1 .textoparte1 {
+  grid-area: textoparte1;
+  text-align: justify;
+}
+section .periodistas1 .textoparte1 p {
+  font-size: 1.3rem;
+}
+section .periodistas1 .textoparte2 p {
+  font-size: 1.3rem;
+}
+section .periodistas1 .textoparte2 {
+  grid-area: textoparte2;
+  text-align: justify;
+}
+
+section {
+  text-align: center;
+}
+section .periodistas2 {
+  background-color: aliceblue;
+  width: 90%;
+  border-radius: 5px;
+  margin: auto;
+  border: solid 3px black;
+  grid-gap: 5px;
+  row-gap: 20px;
+  padding: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "primerdescripcion primerfoto " "segundafoto segundadescripcion" "terceradescripcion tercerafoto" "cuartafoto cuartadescripcion" "quintadescripcion quintafoto" "sextafoto sextadescripcion";
+}
+section .periodistas2 .primerfoto {
+  grid-area: primerfoto;
+}
+section .periodistas2 .primerdescripcion {
+  grid-area: primerdescripcion;
+}
+section .periodistas2 .segundafoto {
+  grid-area: segundafoto;
+}
+section .periodistas2 .segundadescripcion {
+  grid-area: segundadescripcion;
+}
+section .periodistas2 .tercerafoto {
+  grid-area: tercerafoto;
+}
+section .periodistas2 .terceradescripcion {
+  grid-area: terceradescripcion;
+}
+section .periodistas2 .cuartafoto {
+  grid-area: cuartafoto;
+}
+section .periodistas2 .cuartadescripcion {
+  grid-area: cuartadescripcion;
+}
+section .periodistas2 .quintafoto {
+  grid-area: quintafoto;
+}
+section .periodistas2 .quintadescripcion {
+  grid-area: quintadescripcion;
+}
+section .periodistas2 .sextafoto {
+  grid-area: sextafoto;
+}
+section .periodistas2 .sextadescripcion {
+  grid-area: sextadescripcion;
+}
+section .periodistas2 .titulosperiodistas {
+  color: darkmagenta;
+  font-size: 2rem;
+  text-align: center;
+  font-style: oblique;
+}
+section .periodistas2 .descripcionperiodistas {
+  text-align: justify;
+  font-size: 1.3rem;
+}
+section .periodistas2 .imgperiodistaspers {
+  width: 80%;
+  height: 400px;
+}
+
+form {
+  width: 98%;
+  margin: auto;
+  padding: 20px;
+  background-color: #f7b42c;
+  background-image: linear-gradient(315deg, #f7b42c 0%, #fc575e 74%);
+}
+form h4 {
+  margin-left: 1%;
+  margin-right: 10%;
+  text-align: center;
+}
+form fieldset {
+  color: rgb(11, 76, 7);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+form input {
+  background-color: rgb(146, 234, 146);
+  font-size: 1.3rem;
+}
+
 footer {
   text-align: center;
   margin-top: 2%;
@@ -135,4 +387,6 @@ footer h5 {
 }
 footer img {
   border-radius: 5px;
-}/*# sourceMappingURL=estilo.css.map */
+}
+/*# sourceMappingURL=estilo.css.map */
+

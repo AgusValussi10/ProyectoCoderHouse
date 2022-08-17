@@ -1,0 +1,47 @@
+/////////*PAGINA NOTICIAS DEPORTE - GRID*/////////
+.padrenoticias{
+    margin: auto;
+    margin-top: 10px;
+    width: 90%;
+    padding: 30px;
+    grid-gap: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: 
+    "noticia1 noticia2"
+    "noticia3 noticia4"
+    "noticia5 noticia6"
+    "noticia7 noticia8"
+    ;
+
+    .noticia1{
+        grid-area: noticia1;
+    }
+    .noticia2{
+        grid-area: noticia2;
+    }
+    .noticia3{
+        grid-area: noticia3;
+    }
+    .noticia4{
+        grid-area: noticia4;
+    }
+    .noticia5{
+        grid-area: noticia5;
+    }
+    .noticia6{
+        grid-area: noticia6;
+    }
+    .noticia7{
+        grid-area: noticia7;
+    }
+    .noticia8{
+        grid-area: noticia8;
+    }
+    .iframenoticias{
+        width: 450px;
+        height: 390px;
+    }
+}
+
