@@ -1,1 +1,10 @@
 /////////*PAGINA UBICACION - IFRAME MAPA*/////////
+section
+    iframe{
+        @media (max-width: 375px){
+            width: 98%;
+        }
+        @media (max-width: 768px){
+            width: 98%;
+        }
+    }

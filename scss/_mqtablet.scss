@@ -44,25 +44,33 @@
     
     /*QUIENES SOMOS RESPONSIVE*/
     .periodistas1{
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 0.5fr 0.5fr;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
         grid-template-areas: 
-        "imgtodos imgtodos"
-        "textoparte1 textoparte1"
-        "textoparte2 textoparte2"
+        "imgtodos"
+        "textoparte1"
+        "textoparte2"
         ;
     }
-    .imgperiodistas{
-        width: 650px;
-        height: 350px;
+    .imgtodos{
+        grid-area: imgtodos;
+    }
+    .textoparte1{
+        grid-area: textoparte1;
+    }
+    .textoparte2{
+        grid-area: textoparte2;
+        width: 95%;
     }
     .textoparte1 p{
-    font-size: 1.3rem;
+    font-size: 2rem;
     text-align: justify;
     }
     .textoparte2 p{
     font-size: 1.3rem;
     text-align: justify;
+    width: 95%;
     }
     .periodistas2{
         grid-template-columns: 1fr 1fr;

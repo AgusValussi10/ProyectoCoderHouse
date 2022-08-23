@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="../../css/estilo.css">
     <link rel="icon" href="media/logo.png">
     <title>Noticias Economia</title>
@@ -13,7 +15,7 @@
     <header>
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <a class="navbar-brand" href="../../index.html"><img src="../../media/logo.png" alt="logo" width="200px"></a>
+                <a class="navbar-brand" href="../../index.html"><img src="../../media/logo.png" alt="logo" class="logo"></a>
                 <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -54,7 +56,7 @@
                     <div class="noticia1"><iframe class="iframenoticias" src="https://www.youtube.com/embed/MHV-G_GWRLg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>    
                     <div class="noticia2"><iframe class="iframenoticias" src="https://www.youtube.com/embed/vPPv7liuE1o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
                     <div class="noticia3"><iframe class="iframenoticias" src="https://www.youtube.com/embed/D-X9lh-rLbw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-                    <div class="noticia4"> <iframe class="iframenoticias" src="https://www.youtube.com/embed/zRQt_yPEFqA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                    <div class="noticia4"><iframe class="iframenoticias" src="https://www.youtube.com/embed/zRQt_yPEFqA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
                     <div class="noticia5"><iframe class="iframenoticias" src="https://www.youtube.com/embed/4ZurUQJrwG4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
                     <div class="noticia6"><iframe class="iframenoticias" src="https://www.youtube.com/embed/NixHOG04WZo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
                     <div class="noticia7"><iframe class="iframenoticias" src="https://www.youtube.com/embed/wWA4IqZvocc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
@@ -64,19 +66,27 @@
             <a href="#arriba"><img src="../../media/flecha.png" alt="flechaarriba" width="40px"></a>
     </main>
     
-    <footer>
-        <h3><em> Te dejamos nuestras redes👇 </em></h3>
-        <a title="WhatsApp" href="https://walink.co/fb73ad" target="_blank"> <img src="../../media/logowp.png" alt="WhastApp" width="60px"> </a>
-        <a title="Instagram" href="https://www.instagram.com/todonoticias/?hl=es-la" target="_blank"> <img src="../../media/logoig.png" alt="Instagram" width="60px"> </a>
-        <a title="Facebook" href="https://www.facebook.com/todonoticias" target="_blank"> <img src="../../media/logofb.png" alt="Facebook" width="60px"> </a>
-        <a title="Twitter" href="https://twitter.com/todonoticias" target="_blank"> <img src="../../media/logotw.png" alt="Twitter" width="60px"> </a>
-        <br><br><br>
-        <h4 class="C" >Todos los derechos reservados ©</h4>
-        <h5>
-            Resistencia - Chaco <br>
-            Agustin Valussi <br>
-            Coder House - 2022
-        </h5>
+    <footer class="wow animate__animated animate__zoomInUp">
+        <div>
+            <a href="../../index.html">
+                <img class="logofooter" src="../../media/logo.png" alt="logo">
+            </a>  
+        </div>
+
+        <div style="margin-right: 10px;"> 
+            <a href="https://www.instagram.com/todonoticias/?hl=es-la" target="_blank" class=" icon icon--instagram">
+                <i class="ri-instagram-line"></i>
+            </a>
+            <a href="https://twitter.com/todonoticias" target="_blank" class="icon icon--twitter">
+                <i class="ri-twitter-line"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/agustin-valussi-300181213/" target="_blank" class="icon icon--linkedin">
+                <i class="ri-linkedin-line"></i>
+            </a>
+            <a href="https://github.com/AgusValussi10" target="_blank" class="icon icon--github">
+                <i class="ri-github-line"></i>
+            </a>
+        </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>

@@ -5,28 +5,50 @@ h2{
 /////////*PERIODISTAS 1*/////////
 section{
     .periodistas1{
-        @media (max-width: 768px){
-            .periodistas1{
-                display: grid;
-                width: 95%;
-                grid-template-columns: 1fr;
-                grid-template-rows: 1fr 0.5fr 0.5fr;
-                grid-template-areas: 
-                "imgtodos"
-                "textoparte1"
-                "textoparte2"
-                ;
+        @media (max-width: 768px) {
+            justify-content: center;
+            width: 95%;
+            grid-template-columns: 1fr;
+            grid-template-rows: 0.8fr 0fr 0fr;
+            grid-template-areas: 
+            "imgtodos"
+            "textoparte1"
+            "textoparte2"
+            ;
+        .imgtodos{
+            width: 100%;
+            img{
+                width: 680px;
+                height: 100%;
             }
+        }
+        .textoparte1 {
+            width: 100%;
+            p{
+                text-align: justify;
+            }
+        }
+        .textoparte2 {
+            width: 100%;
+            p{
+                text-align: justify;
+            }
+        }
+        }
+        @media (max-width: 375px){
+            grid-template-columns: 1fr;
+            grid-template-rows: 0.6fr 0.5fr 0.5fr;
+            grid-template-areas: 
+            "imgtodos"
+            "textoparte1"
+            "textoparte2"
+            ;
             .imgtodos{
-                grid-area: imgtodos;
-            }
-            .textoparte1{
-                grid-area: textoparte1;
-                width: 90%;
-            }
-            .textparte2{
-                grid-area: textoparte2;
-                width: 90%;
+                height: 100%;
+                img{
+                    width: 80vw;
+                    height: 100%;
+                }
             }
         }
         background-color: aliceblue;
@@ -34,7 +56,8 @@ section{
         border-radius: 5px;
         margin: auto;
         padding: 15px;
-        width: 90%;
+        width: 95%;
+        height: 230vh;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 2fr 1,5fr;
@@ -43,8 +66,8 @@ section{
         "textoparte2 textoparte2"
         ;
             .imgtodos{
-                padding: 5px;
                 grid-area: imgtodos;
+                width: 1%;
             }
             .imgperiodistas{
                 width: 600px;
@@ -55,61 +78,29 @@ section{
                 border: solid 3px black;
             }
             .textoparte1{
+
                 grid-area: textoparte1;
                 text-align: justify;
-                width: 90%;
             }
             .textoparte1 p{
+                @media (max-width: 375px){
+                    font-size: 1rem;
+                }
                 font-size: 1.3rem;
             }
             .textoparte2 p{
                 font-size: 1.3rem;
+                @media (max-width: 375px){
+                    font-size: 1rem;
+                }
             }
             .textoparte2{
                 grid-area: textoparte2;
                 text-align: justify;
             }
-            @media (max-width: 768px){
-            .periodistas1{
-                display: grid;
-                width: 95%;
-                grid-template-columns: 1fr;
-                grid-template-rows: 1fr 0.5fr 0.5fr;
-                grid-template-areas: 
-                "imgtodos"
-                "textoparte1"
-                "textoparte2"
-                ;
-            }
-            
-            .imgtodos{
-                width: 100%;
-                height: 50%;
-            }
-            .textoparte1 p{
-            font-size: 1.3rem;
-            text-align: justify;
-            }
-            .textoparte2 p{
-            font-size: 1.3rem;
-            text-align: justify;
-            }
-            .periodistas2{
-                grid-template-columns: 1fr 1fr;
-                grid-template-rows: 0.5fr;
-            }
-            .imgperiodistaspers{
-                width: 95%;
-                height: 100%;
-            }
-            .periodistas2 p{
-                padding: 1px;
-                font-size: 1rem;
-                text-align: justify;
-            }
-            .titulosperiodistas{
-                font-size: 1.4rem;
-            }
+            img:hover{
+                opacity: 0.7;
+                color: black;
             }
     }
 }
@@ -117,8 +108,28 @@ section{
 section{
     text-align: center;
         .periodistas2{
+            @media (max-width: 375px){
+                grid-gap: 1px;
+                grid-template-columns: repeat(1, 1fr);
+                grid-template-rows: repeat(12, 0.5fr);
+                grid-template-areas: 
+                "primerfoto"
+                "primerdescripcion"
+                "segundafoto"
+                "segundadescripcion"
+                "tercerafoto"
+                "terceradescripcion"
+                "cuartafoto"
+                "cuartadescripcion"
+                "quintafoto"
+                "quintadescripcion"
+                "sextafoto"
+                "sextadescripcion"
+                ;
+            }
+            
             background-color: aliceblue;
-            width: 90%;
+            width: 95%;
             border-radius: 5px;
             margin: auto;
             border: solid 3px black;
@@ -172,21 +183,38 @@ section{
         .sextadescripcion{
             grid-area: sextadescripcion;
         }
+        img:hover{
+            opacity: 0.7;
+            color: black;
+        }
 
         /////////*CLASES*/////////
         .titulosperiodistas{
+            @media (max-width: 768px) {
+                font-size: 1.8rem;  
+                }
             color: darkmagenta;
             font-size: 2rem;
             text-align: center;
             font-style: oblique;
         }
         .descripcionperiodistas{
+            @media (max-width: 768px) {
+                font-size: 1rem;  
+                }
             text-align: justify;
             font-size: 1.3rem;
         }
+        }
         .imgperiodistaspers{
-            width: 80%;
+            @media (max-width: 768px) {
+                width: 95%;
+                border-radius: 10px;
+                }
+            border-radius: 20px;   
+            border: solid 2px black; 
+            width: 90%;
             height: 400px;
         }
     }
-}
+

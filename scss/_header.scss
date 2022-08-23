@@ -1,5 +1,11 @@
 /////////*BARRA DE NAVEGACION - NAV*/////////
 header{
+    .logo{
+        @media (max-width: 375px){
+            width: 150px;
+        }
+    width: 200px;
+    }
     nav{
     max-height: 400px;
     justify-content: end;
@@ -12,7 +18,7 @@ header{
         border-top: 2px solid white ;
     }
     .navbar{
-        background-color: black;
+        background-color: #96b392;
     }
     nav li{
         color: white;
