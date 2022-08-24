@@ -1,6 +1,24 @@
+//* DECLARANDO VARIABLES*//
+$iframeborder: rgb(50, 106, 50);
+$iframeborder1: rgb(161, 201, 29);
+
+//*CREANDO @MIXIN*//
+@mixin iframe{
+    border-radius: 10px;
+    border-top: solid 8px $iframeborder;
+    border-bottom: solid 8px $iframeborder;
+    margin: 1rem;
+}
+@mixin iframe1{
+    border-radius: 10px;
+    border-right: solid 8px $iframeborder1;
+    border-left: solid 8px $iframeborder1;
+    margin: 1rem;
+}
+
+
 /////////*PAGINA NOTICIAS ECONOMIA - GRID*/////////
-section
-    .padrenoticias{
+.padrenoticias{
         @media (max-width: 375px){
             grid-gap: 10px;
             padding: auto;
@@ -72,9 +90,17 @@ section
             }
             width: 450px;
             height: 390px;
-        }
 
+            //*INCLUYENDO MIXIN*//
+            @include iframe;
+            @include iframe1;
+            
+        }
+}
         
-    }
+    
+
+
+
 
 
