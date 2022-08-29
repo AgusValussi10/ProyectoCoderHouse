@@ -180,9 +180,10 @@ main .primerpagina a img:hover {
     grid-gap: 10px;
     padding: auto;
     margin-right: 0px;
+    display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(8, 0.5fr);
-    grid-template-areas: "noticia1" "noticia2" "noticia3" "noticia4" "noticia5" "noticia6" "noticia7" "noticia8";
+    grid-area: "noticia1";
   }
 }
 @media (max-width: 768px) {
