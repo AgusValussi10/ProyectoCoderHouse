@@ -164,12 +164,6 @@ main .primerpagina a img:hover {
   }
 }
 
-/*
-@import "./_paginasnoticias.scss/paginanoticiaseconomia";
-@import "./_paginasnoticias.scss/paginanoticiaspolitica";
-@import "./_paginasnoticias.scss/paginanoticiasdeporte";
-@import "./_paginasnoticias.scss/paginanoticiasinternacional";
-*/
 .padrenoticias {
   margin: auto;
   margin-top: 10px;
