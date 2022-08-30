@@ -18,14 +18,19 @@ header{
         border-top: 2px solid white ;
     }
     .navbar{
-        background-color: #96b392;
+        background-color: black;
     }
     nav li{
         color: white;
         a:hover{
-            background-color: gray;
+            background-color: rgb(59, 56, 56);
             border-radius: 5px;
             transition: 0.01s;
             }
+    }
+    .ul.dropdown-menu.show{
+        position: absolute;
+        
+
     }
 }

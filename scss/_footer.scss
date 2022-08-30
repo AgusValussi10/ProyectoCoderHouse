@@ -10,8 +10,8 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #96b392;
-    border-top: 3px solid green;
+    background-color: #000000;
+    border-top: 3px solid #FF3636;
     .logofooter{
         @media (max-width: 375px){
             width: 150px;

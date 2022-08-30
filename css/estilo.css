@@ -1,6 +1,6 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #797e5f;
+  background-color: gray;
 }
 body h2, body h3, body h4, body h5, body h6 {
   color: white;
@@ -28,15 +28,18 @@ header .h1div {
   border-top: 2px solid white;
 }
 header .navbar {
-  background-color: #96b392;
+  background-color: black;
 }
 header nav li {
   color: white;
 }
 header nav li a:hover {
-  background-color: gray;
+  background-color: rgb(59, 56, 56);
   border-radius: 5px;
   transition: 0.01s;
+}
+header .ul.dropdown-menu.show {
+  position: absolute;
 }
 
 body {
@@ -45,7 +48,7 @@ body {
 body .titulo {
   text-decoration: underline;
   text-align: start;
-  color: green;
+  color: white;
   margin: 5px;
 }
 @media (max-width: 375px) {
@@ -57,8 +60,16 @@ body .titulo {
 }
 body .h1div {
   border-top: 2px solid white;
-  background-color: #96b392;
+  background-color: #000000;
   height: 9.6vh;
+}
+@media (max-width: 375px) {
+  body label {
+    width: 100%;
+  }
+  body .botones {
+    border: black;
+  }
 }
 
 main {
@@ -96,7 +107,7 @@ main .primerpagina .not5 {
 main .primerpagina .imgvivo {
   width: 595px;
   height: 500px;
-  border: 3px solid green;
+  border: 3px solid #0A8CEF;
   opacity: 1;
   border-radius: 4px;
 }
@@ -104,28 +115,28 @@ main .primerpagina .imgnoticias {
   width: 320px;
   height: 245px;
   border-radius: 4px;
-  border: 2px solid green;
+  border: 2px solid #0A8CEF;
   opacity: 0.9;
 }
 main .primerpagina .imgnoticiasbat {
   width: 650px;
   height: 245px;
   border-radius: 4px;
-  border: 2px solid green;
+  border: 2px solid #0A8CEF;
   opacity: 0.9;
 }
 main .primerpagina .imgnoticiassel {
   width: 595px;
   height: 245px;
   border-radius: 4px;
-  border: 2px solid green;
+  border: 2px solid #0A8CEF;
   opacity: 0.9;
 }
 main .primerpagina .imgnoticiasucr {
   width: 320px;
   height: 500px;
   border-radius: 4px;
-  border: 2px solid green;
+  border: 2px solid #0A8CEF;
   opacity: 0.9;
 }
 main .primerpagina a img:hover {
@@ -218,27 +229,27 @@ main .primerpagina a img:hover {
   }
 }
 
-.iframenoticias {
+div .iframenoticias {
   width: 450px;
   height: 390px;
-  border-radius: 10px;
-  border-top: solid 8px rgb(50, 106, 50);
-  border-bottom: solid 8px rgb(50, 106, 50);
+  border-radius: 20px;
+  border-top: solid 8px #0A8CEF;
+  border-bottom: solid 8px #0A8CEF;
   margin: 1rem;
-  border-radius: 10px;
-  border-right: solid 8px rgb(161, 201, 29);
-  border-left: solid 8px rgb(161, 201, 29);
+  border-radius: 20px;
+  border-right: solid 8px #FF3636;
+  border-left: solid 8px #FF3636;
   margin: 1rem;
 }
 @media (max-width: 375px) {
-  .iframenoticias {
-    width: 300px !important;
+  div .iframenoticias {
+    width: 300px;
     border-radius: 5px;
   }
 }
 @media (max-width: 768px) {
-  .iframenoticias {
-    width: 310px !important;
+  div .iframenoticias {
+    width: 310px;
   }
 }
 
@@ -247,9 +258,9 @@ h2 {
 }
 
 section .periodistas1 {
-  background-color: aliceblue;
-  border: solid 3px black;
-  border-radius: 5px;
+  background-color: #ffffff;
+  border: solid 3px #0A8CEF;
+  border-radius: 30px;
   margin: auto;
   padding: 15px;
   width: 95%;
@@ -288,7 +299,7 @@ section .periodistas1 {
 }
 @media (max-width: 375px) {
   section .periodistas1 {
-    height: 220vh;
+    height: 223vh;
     grid-template-columns: 1fr;
     grid-template-rows: 0.6fr 0.5fr 0.5fr;
     grid-template-areas: "imgtodos" "textoparte1" "textoparte2";
@@ -310,8 +321,8 @@ section .periodistas1 .imgperiodistas {
   height: 380px;
 }
 section .periodistas1 .imgtodos img {
-  border-radius: 5px;
-  border: solid 3px black;
+  border-radius: 30px;
+  border: solid 2px #0A8CEF;
 }
 section .periodistas1 .textoparte1 {
   grid-area: textoparte1;
@@ -337,7 +348,7 @@ section .periodistas1 .textoparte2 {
   grid-area: textoparte2;
   text-align: justify;
 }
-section .periodistas1 img:hover {
+section .periodistas1 .perio:hover {
   opacity: 0.7;
   color: black;
 }
@@ -346,11 +357,11 @@ section {
   text-align: center;
 }
 section .periodistas2 {
-  background-color: aliceblue;
+  background-color: #ffffff;
   width: 95%;
   border-radius: 5px;
   margin: auto;
-  border: solid 3px black;
+  border: solid 3px #0A8CEF;
   grid-gap: 5px;
   row-gap: 20px;
   padding: 15px;
@@ -408,14 +419,14 @@ section .periodistas2 img:hover {
   color: black;
 }
 section .periodistas2 .titulosperiodistas {
-  color: darkmagenta;
+  color: #0A8CEF;
   font-size: 2rem;
   text-align: center;
   font-style: oblique;
 }
 @media (max-width: 768px) {
   section .periodistas2 .titulosperiodistas {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
   }
 }
 section .periodistas2 .descripcionperiodistas {
@@ -429,9 +440,14 @@ section .periodistas2 .descripcionperiodistas {
 }
 section .imgperiodistaspers {
   border-radius: 20px;
-  border: solid 2px black;
+  border: solid 2px #0A8CEF;
   width: 90%;
   height: 400px;
+}
+@media (max-width: 375px) {
+  section .imgperiodistaspers {
+    height: 250px;
+  }
 }
 @media (max-width: 768px) {
   section .imgperiodistaspers {
@@ -455,8 +471,8 @@ form {
   width: 98%;
   margin: auto;
   padding: 20px;
-  background-color: #f7b42c;
-  background-image: linear-gradient(315deg, #f7b42c 0%, #fc575e 74%);
+  background-image: linear-gradient(315deg, #0A8CEF 0%, #FF3636 80%);
+  border-radius: 10px;
 }
 form h4 {
   margin-left: 1%;
@@ -464,12 +480,15 @@ form h4 {
   text-align: center;
 }
 form fieldset {
-  color: rgb(11, 76, 7);
+  color: white;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 form input {
-  background-color: rgb(146, 234, 146);
+  background-color: transparent;
   font-size: 1.3rem;
+}
+form .genero input {
+  margin: 5px;
 }
 
 footer {
@@ -478,8 +497,8 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #96b392;
-  border-top: 3px solid green;
+  background-color: #000000;
+  border-top: 3px solid #FF3636;
 }
 @media (max-width: 375px) {
   footer {

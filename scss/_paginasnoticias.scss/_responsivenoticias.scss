@@ -1,16 +1,16 @@
 //* DECLARANDO VARIABLES*//
-$iframeborder: rgb(50, 106, 50);
-$iframeborder1: rgb(161, 201, 29);
+$iframeborder: #0A8CEF;
+$iframeborder1: #FF3636;
 
 //*CREANDO @MIXIN*//
 @mixin iframe{
-    border-radius: 10px;
+    border-radius: 20px;
     border-top: solid 8px $iframeborder;
     border-bottom: solid 8px $iframeborder;
     margin: 1rem;
 }
 @mixin iframe1{
-    border-radius: 10px;
+    border-radius: 20px;
     border-right: solid 8px $iframeborder1;
     border-left: solid 8px $iframeborder1;
     margin: 1rem;
@@ -81,18 +81,23 @@ $iframeborder1: rgb(161, 201, 29);
         
     }
 }
-    .iframenoticias{
-        @media (max-width: 375px){
-            width: 300px !important;  
-            border-radius: 5px;
-        }
-        @media (max-width: 768px){
-            width: 310px !important;
-        }
-        width: 450px;
-        height: 390px;
 
-        //*INCLUYENDO MIXIN*//
-        @include iframe;
-        @include iframe1;
+    div{
+        .iframenoticias{
+            @media (max-width: 375px){
+                width: 300px;  
+                border-radius: 5px;
+            }
+            @media (max-width: 768px){
+                width: 310px;
+            }
+            width: 450px;
+            height: 390px;
+
+            //*INCLUYENDO MIXIN*//
+            @include iframe;
+            @include iframe1;
+        }
     }
+
+
