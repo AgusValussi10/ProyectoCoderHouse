@@ -16,26 +16,8 @@ $iframeborder1: rgb(161, 201, 29);
     margin: 1rem;
 }
 
-
 /////////*PAGINA NOTICIAS ECONOMIA - GRID*/////////
     .padrenoticias{
-        @media (max-width: 375px){
-            grid-gap: 10px;
-            padding: auto;
-            margin-right: 0px;
-            display: grid;
-            grid-template-columns: 1fr;
-            grid-template-rows: repeat(8, 0.5fr);
-            grid-area: 
-            "noticia1"
-            ;
-        }
-        @media (max-width: 768px){
-            margin: auto;
-            width: 90%;
-            padding: 5px;
-            grid-gap: 8px;
-        }
             margin: auto;
             margin-top: 10px;
             width: 90%;
@@ -50,7 +32,6 @@ $iframeborder1: rgb(161, 201, 29);
             "noticia5 noticia6"
             "noticia7 noticia8"
             ;
-        
             .noticia1{
                 grid-area: noticia1;
             }
@@ -75,14 +56,8 @@ $iframeborder1: rgb(161, 201, 29);
             .noticia8{
                 grid-area: noticia8;
             }
+    }
             .iframenoticias{
-                @media (max-width: 375px){
-                    width: 300px;  
-                    border-radius: 5px;
-                }
-                @media (max-width: 768px){
-                    width: 330px;
-                }
                 width: 450px;
                 height: 390px;
     
@@ -91,7 +66,7 @@ $iframeborder1: rgb(161, 201, 29);
                 @include iframe1;
                 
             }
-    }
+    
             
 
 
