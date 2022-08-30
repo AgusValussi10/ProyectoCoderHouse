@@ -1,0 +1,6 @@
+*{
+    scroll-behavior: none;
+}
+body::-webkit-scrollbar{
+    width: 0px;
+}
