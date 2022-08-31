@@ -63,7 +63,7 @@ body .titulo {
   body .titulo {
     font-size: 1.8rem;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 3%;
   }
 }
 @media (max-width: 375px) {
@@ -358,7 +358,7 @@ section .periodistas1 .perio:hover {
 }
 @media (max-width: 420px) {
   section .periodistas1 {
-    height: 145vh;
+    height: 190vh;
     grid-template-columns: 1fr;
     grid-template-rows: 0.6fr 0.5fr 0.5fr;
     grid-template-areas: "imgtodos" "textoparte1" "textoparte2";
