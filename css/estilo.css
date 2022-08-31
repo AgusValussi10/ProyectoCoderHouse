@@ -380,7 +380,7 @@ section .periodistas1 .perio:hover {
     height: 230vh;
   }
   section .periodistas1 .imgtodos {
-    height: 100%;
+    height: 40vh;
   }
   section .periodistas1 .imgtodos img {
     width: 85vw;
