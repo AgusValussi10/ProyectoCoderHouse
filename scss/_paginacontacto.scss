@@ -21,5 +21,12 @@ form{
     .genero input{
         margin: 5px;
     }
-    
+    @media (max-width: 420px){
+        label{
+            width: 100%;
+        }
+        .botones{
+            border: black;
+        }
+    } 
 }

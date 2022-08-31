@@ -15,18 +15,11 @@ body{
         text-align:start;
         color: white;
         margin: 5px;
+        text-align: center;
     }
     .h1div{
         border-top: 2px solid white ;
         background-color: #000000;
         height: 9.6vh;
-    }
-    @media (max-width: 420px){
-        label{
-            width: 100%;
-        }
-        .botones{
-            border: black;
-        }
     }
 }

@@ -1,5 +1,5 @@
 /////////*FOOTER - TODAS PAGINAS*/////////
-footer{
+.footer1{
     @media (max-width: 420px){
         display: flex;
         flex-direction: column;
@@ -22,9 +22,6 @@ footer{
         justify-content: flex-end;
     }
     .icon {
-        @media (max-width: 420px){
-
-        }
         width: 60px;
         height: 60px;
         margin: 5px;
@@ -81,6 +78,46 @@ footer{
     
         40% {
             transform: rotate(-360deg);
+        }
+    }
+}
+.footer2{
+    background-color: #000000;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-right: 25%;
+    padding-left: 25%;
+    padding-top: 20px;
+    p{
+        text-align: end;
+        padding: auto;
+        width: max-content;
+    }
+    @media (max-width: 768px){
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    @media (max-width: 420px){
+        flex-direction: column;
+        padding-right: 20%;
+        padding-left: 15%;
+        margin: auto;
+        justify-content: center;
+        p{
+            text-align: center;
+            width: 300px;
+        }
+    }
+    @media (max-width: 375px){
+        flex-direction: column;
+        padding-right: 20%;
+        padding-left: 10%;
+        justify-content: center;
+        p{
+            text-align: center;
+            width: 300px;
         }
     }
 }
