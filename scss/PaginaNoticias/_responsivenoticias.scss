@@ -56,10 +56,9 @@ $iframeborder1: #FF3636;
     .noticia8{
         grid-area: noticia8;
     }
-    @media (max-width: 375px){
+    @media (max-width: 420px){
         margin: auto;
         grid-gap: 10px;
-        margin-left: 0px !important;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(8, 0.5fr);
         grid-template-areas: 
@@ -80,24 +79,28 @@ $iframeborder1: #FF3636;
         grid-gap: 8px;
         
     }
+    @media (max-width: 375px){
+        margin: auto 3% auto 3%;
+    }
 }
 
-    div{
         .iframenoticias{
-            @media (max-width: 375px){
-                width: 300px;  
+
+            //*INCLUYENDO MIXIN*//
+            @include iframe;
+            @include iframe1;
+
+            width: 450px;
+            height: 390px;
+
+            @media (max-width: 420px){
+                width: 25%;;  
                 border-radius: 5px;
             }
             @media (max-width: 768px){
                 width: 310px;
             }
-            width: 450px;
-            height: 390px;
-
-            //*INCLUYENDO MIXIN*//
-            @include iframe;
-            @include iframe1;
+        
         }
-    }
 
 

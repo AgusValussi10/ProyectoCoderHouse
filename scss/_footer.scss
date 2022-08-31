@@ -1,6 +1,6 @@
 /////////*FOOTER - TODAS PAGINAS*/////////
 footer{
-    @media (max-width: 375px){
+    @media (max-width: 420px){
         display: flex;
         flex-direction: column;
         height: 100%;
@@ -13,7 +13,7 @@ footer{
     background-color: #000000;
     border-top: 3px solid #FF3636;
     .logofooter{
-        @media (max-width: 375px){
+        @media (max-width: 420px){
             width: 150px;
         }
         width: 200px;
@@ -22,7 +22,7 @@ footer{
         justify-content: flex-end;
     }
     .icon {
-        @media (max-width: 375px){
+        @media (max-width: 420px){
 
         }
         width: 60px;
