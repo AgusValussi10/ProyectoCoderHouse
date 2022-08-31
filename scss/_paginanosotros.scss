@@ -85,7 +85,8 @@ section{
                 }
             }
             }
-            @media (max-width: 420px){
+            @media (min-width: 400px){
+                justify-content: center;
                 height: 190vh;
                 grid-template-columns: 1fr;
                 grid-template-rows: 0.6fr 0.5fr 0.5fr;
@@ -104,7 +105,7 @@ section{
                 }
             }
             @media (max-width: 375px){
-                height: 205vh;
+                height: 220vh;
                 .imgtodos{
                     height: 100%;
                     img{
