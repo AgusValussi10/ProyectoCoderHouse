@@ -323,6 +323,7 @@ section .periodistas1 .textoparte2 p {
 section .periodistas1 .textoparte2 {
   grid-area: textoparte2;
   text-align: justify;
+  height: 80vh;
 }
 section .periodistas1 .perio:hover {
   opacity: 0.7;
@@ -359,13 +360,15 @@ section .periodistas1 .perio:hover {
 @media (max-width: 430px) {
   section .periodistas1 {
     justify-content: center;
-    height: 190vh;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
     grid-template-columns: 1fr;
     grid-template-rows: 0.6fr 0.5fr 0.5fr;
     grid-template-areas: "imgtodos" "textoparte1" "textoparte2";
   }
   section .periodistas1 .imgtodos {
-    height: 30vh;
+    height: 35vh;
   }
   section .periodistas1 .imgtodos img {
     width: 85vw;
@@ -374,7 +377,7 @@ section .periodistas1 .perio:hover {
 }
 @media (max-width: 375px) {
   section .periodistas1 {
-    height: 220vh;
+    height: 230vh;
   }
   section .periodistas1 .imgtodos {
     height: 100%;
