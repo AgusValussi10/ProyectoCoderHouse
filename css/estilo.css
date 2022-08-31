@@ -1,5 +1,8 @@
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+}
+
 body {
-  font-family: Arial, Helvetica, sans-serif;
   background-color: gray;
 }
 body h2, body h3, body h4, body h5, body h6 {
@@ -35,9 +38,6 @@ header nav li a:hover {
   transition: 0.01s;
 }
 
-body {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}
 body .titulo {
   text-decoration: underline;
   text-align: start;
