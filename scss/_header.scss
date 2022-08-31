@@ -1,36 +1,21 @@
 /////////*BARRA DE NAVEGACION - NAV*/////////
 header{
-    .logo{
-        @media (max-width: 375px){
-            width: 150px;
+        .collapse{
+            justify-content: end;
+            font-size: 1.2rem;
         }
-    width: 200px;
-    }
-    nav{
-    max-height: 400px;
-    justify-content: end;
-    }
-    .collapse{
-        justify-content: end;
-        font-size: 1.2rem;
-    }
-    .h1div{
-        border-top: 2px solid white ;
-    }
-    .navbar{
-        background-color: black;
-    }
-    nav li{
-        color: white;
-        a:hover{
-            background-color: rgb(59, 56, 56);
-            border-radius: 5px;
-            transition: 0.01s;
-            }
-    }
-    .ul.dropdown-menu.show{
-        position: absolute;
-        
-
-    }
+        .h1div{
+            border-top: 2px solid white ;
+        }
+        .navbar{
+            background-color: black;
+        }
+        nav li{
+            color: white;
+            a:hover{
+                background-color: rgb(59, 56, 56);
+                border-radius: 5px;
+                transition: 0.01s;
+                }
+        }
 }

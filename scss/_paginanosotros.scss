@@ -11,6 +11,7 @@ section{
         margin: auto;
         padding: 15px;
         width: 95%;
+        height: 118vh;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 2fr 1,5fr;
@@ -38,7 +39,7 @@ section{
                 @media (max-width: 420px){
                     font-size: 1rem;
                 }
-                font-size: 1.3rem;
+                font-size: 1.32rem;
             }
             .textoparte2 p{
                 font-size: 1.3rem;
