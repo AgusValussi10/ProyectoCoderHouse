@@ -60,6 +60,7 @@ section{
             @media (max-width: 768px) {
                 justify-content: center;
                 width: 95%;
+                height: 214vh;
                 grid-template-columns: 1fr;
                 grid-template-rows: 0.8fr 0fr 0fr;
                 grid-template-areas: 
@@ -214,7 +215,7 @@ section{
         }
         .descripcionperiodistas{
             @media (max-width: 768px) {
-                font-size: 1rem;  
+                font-size: 0.95rem;  
                 }
             text-align: justify;
             font-size: 1.3rem;
@@ -227,6 +228,7 @@ section{
             @media (max-width: 768px) {
                 width: 95%;
                 border-radius: 10px;
+                height: 380px;
                 }
             border-radius: 20px;   
             border: solid 2px #0A8CEF; 

@@ -312,6 +312,7 @@ section .periodistas1 .perio:hover {
   section .periodistas1 {
     justify-content: center;
     width: 95%;
+    height: 214vh;
     grid-template-columns: 1fr;
     grid-template-rows: 0.8fr 0fr 0fr;
     grid-template-areas: "imgtodos" "textoparte1" "textoparte2";
@@ -449,7 +450,7 @@ section .periodistas2 .descripcionperiodistas {
 }
 @media (max-width: 768px) {
   section .periodistas2 .descripcionperiodistas {
-    font-size: 1rem;
+    font-size: 0.95rem;
   }
 }
 section .imgperiodistaspers {
@@ -467,6 +468,7 @@ section .imgperiodistaspers {
   section .imgperiodistaspers {
     width: 95%;
     border-radius: 10px;
+    height: 380px;
   }
 }
 
