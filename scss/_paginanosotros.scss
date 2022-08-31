@@ -85,7 +85,7 @@ section{
                 }
             }
             }
-            @media (min-width: 400px){
+            @media (max-width: 430px){
                 justify-content: center;
                 height: 190vh;
                 grid-template-columns: 1fr;
